@@ -1,0 +1,206 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1845789469,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SpreePaxovisionloginSteps.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "2. As a valid user, user should be able to login and buy a product.",
+        "description": "",
+        "id": "spree-project-login-functionality;2.-as-a-valid-user,-user-should-be-able-to-login-and-buy-a-product.",
+        "after": [
+          {
+            "result": {
+              "duration": 15335,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SpreePaxovisionloginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3360119939,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user can browse to an application",
+            "match": {
+              "location": "SpreePaxovisionloginSteps.user_can_browse_to_an_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33543859,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user land on home page \"Spree Demo Site\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Spree Demo Site",
+                  "offset": 24
+                }
+              ],
+              "location": "SpreePaxovisionloginSteps.user_land_on_home_page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89900210,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user can click on login link",
+            "match": {
+              "location": "SpreePaxovisionloginSteps.user_can_click_on_login_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2125324634,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "enter \"faheemkhatri@yahoo.com\" as email address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "faheemkhatri@yahoo.com",
+                  "offset": 7
+                }
+              ],
+              "location": "SpreePaxovisionloginSteps.enter_as_email_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152808039,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "enter \"student1\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "student1",
+                  "offset": 7
+                }
+              ],
+              "location": "SpreePaxovisionloginSteps.enter_as_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1508836099,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "click on login button",
+            "match": {
+              "location": "SpreePaxovisionloginSteps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23490700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user logged on to the application",
+            "match": {
+              "location": "SpreePaxovisionloginSteps.user_logged_on_to_the_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2774163760,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "select item \"Ruby on Rails Tote\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ruby on Rails Tote",
+                  "offset": 13
+                }
+              ],
+              "location": "SpreePaxovisionloginSteps.select_item(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36050465,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "update quantity on cart page",
+            "match": {
+              "location": "SpreePaxovisionloginSteps.update_quantity_on_cart_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2594243339,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "click on add to cart button",
+            "match": {
+              "location": "SpreePaxovisionloginSteps.click_on_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2096214744,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "click on check out button",
+            "match": {
+              "location": "SpreePaxovisionloginSteps.click_on_check_out_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 25,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Spree project login functionality",
+    "description": "",
+    "id": "spree-project-login-functionality",
+    "keyword": "Feature",
+    "uri": "SpreePaxotechlogin.feature"
+  }
+]

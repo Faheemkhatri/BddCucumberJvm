@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.640501">
+<testcase classname="Spree project login functionality" name="2. As a valid user, user should be able to login and buy a product." time="16.640501">
+<system-out><![CDATA[Given user can browse to an application.....................................passed
+When user land on home page "Spree Demo Site"...............................passed
+Then user can click on login link...........................................passed
+And enter "faheemkhatri@yahoo.com" as email address.........................passed
+And enter "student1" as password............................................passed
+And click on login button...................................................passed
+When user logged on to the application......................................passed
+Then select item "Ruby on Rails Tote".......................................passed
+And update quantity on cart page............................................passed
+And click on add to cart button.............................................passed
+And click on check out button...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
